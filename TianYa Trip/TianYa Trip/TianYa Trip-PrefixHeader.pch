@@ -1,0 +1,40 @@
+//
+//  TianYa Trip-PrefixHeader.pch
+//  TianYa Trip
+//
+//  Created by BOSSNEO on 15/5/22.
+//  Copyright (c) 2015年 NeoTeam. All rights reserved.
+//
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <ShareSDK/ShareSDK.h>
+#import "WeiboSDK.h"
+#import <AGCommon/UINavigationBar+Common.h>
+#import "AppDelegate.h"
+#import "NeoAppTools.h"
+
+
+#ifndef TianYa_Trip_TianYa_Trip_PrefixHeader_pch
+#define TianYa_Trip_TianYa_Trip_PrefixHeader_pch
+
+#define SCREEN_FRAME [UIScreen mainScreen].bounds
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+#define SCREEN_X [UIScreen mainScreen].bounds.size.width / 375
+#define SCREEN_Y [UIScreen mainScreen].bounds.size.height / 667
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#if DEBUG
+
+#define NSLog(FORMAT, ...) fprintf(stderr,"[%s:%d行] %s\n",[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+
+#else
+
+#define NSLog(FORMAT, ...) nil
+
+#endif
+#endif
+
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>60A8884F-154A-4469-9435-008CB6195ACC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BC96047C488BBC7F29A902E17DA6304EC656F2E5</key>
+		<string>https://git.oschina.net/neoapp/TianYa-Trip.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TianYa Trip/TianYa Trip.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BC96047C488BBC7F29A902E17DA6304EC656F2E5</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://git.oschina.net/neoapp/TianYa-Trip.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BC96047C488BBC7F29A902E17DA6304EC656F2E5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BC96047C488BBC7F29A902E17DA6304EC656F2E5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>%E8%B5%B0%E5%A4%A9%E6%B6%AF</string>
+		</dict>
+	</array>
+</dict>
+</plist>
